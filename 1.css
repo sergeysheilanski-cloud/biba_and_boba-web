@@ -42,8 +42,26 @@ a{
     width:1425px ;
     height:767px ;
  }
-
- /* about section */
-  
- 
- 
+ .blok3{
+     background-color:purple ; 
+         width:  483px;
+         height: 723px;
+ }
+  .blok4{
+     background-color:green ; 
+         width:  483px;
+         height: 723px;
+         display: flex;
+         justify-content: center;
+         align-items: center;   
+ }
+ .sanya{
+     display: flex;
+         justify-content: center;
+         align-items: center;   
+ }
+ .blok5{
+       background-color:pink; 
+         width:  500px;
+         height: 500px;
+ }
