@@ -61,7 +61,7 @@ a{
          align-items: center;   
  }
  .blok5{
-       background-color:pink; 
+       background:pink; 
          width:  500px;
          height: 500px;
  }
