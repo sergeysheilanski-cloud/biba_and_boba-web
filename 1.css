@@ -1,7 +1,4 @@
-@font-face{
-    font-family: "Klyakson";
-    src: url(./fonts/Klyakson.otf);
-}
+
 body{
     font-family: "Klyakson";
 }
@@ -46,6 +43,8 @@ a{
      background-color:purple ; 
          width:  483px;
          height: 723px;
+         position: relative;
+         z-index: 3 !important;
  }
   .blok4{
      background-color:green ; 
@@ -57,11 +56,77 @@ a{
  }
  .sanya{
      display: flex;
-         justify-content: center;
-         align-items: center;   
+     gap: 128px;
+     align-items: center;
+     justify-content: center;
+      
  }
- .blok5{
+ .blok5{  
        background:pink; 
          width:  500px;
          height: 500px;
  }
+.as1{
+ font-size:  70px;
+ font-weight: 500px;
+
+}
+.as2{
+    color: gray;
+     margin-top:-50px;  
+}
+.dots{
+    position: absolute;
+    left: 90px;
+    top: 500px;
+    z-index: -1;
+}
+
+  .red-btn {
+      background-color: #e74c3c;   
+      color: #fff;                 
+      padding: 12px 28px;          
+      border: none;               
+      border-radius: 4px;         
+      font-size: 16px;             
+      font-family: Arial, sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      text-decoration: none;   
+      width: 85px;
+      margin-right: 350px;
+    }
+
+     .outlined-text {
+      font-size: 80px;            
+      font-weight: bold;           
+      color: white;                
+      -webkit-text-stroke: 2px black;   
+      font-family: Arial, sans-serif;
+      margin-top:-50px;
+    }
+    .as3{
+        width:300px;
+        height:305px;
+        background: #000;
+        position: absolute;
+        bottom: 190px;
+        left: 250px;
+        z-index: -1;
+    }
+    .as4{
+        width:205px ;
+        height:180px ;
+        background: #000;   
+        bottom:40px;
+        left: px;
+        right:350px;
+        position: absolute; 
+        z-index: -1;
+    }
+    .red-btn {
+  position: relative;
+  left: -290px;
+}
+
